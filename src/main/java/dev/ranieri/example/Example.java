@@ -21,6 +21,7 @@ public class Example {
             statement.execute("insert into player values (606,'Billy','bobson',1000)");
 
             conn.close();
+            //hello
 
         } catch (SQLException e) {
             e.printStackTrace();
